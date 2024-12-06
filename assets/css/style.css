@@ -248,8 +248,18 @@ main {
                 font-size: 18px;
             }
 
-        }
+            & .checkbox-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
 
+                .proceed-data {
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+        }
     }
 
     & .reviews-section {

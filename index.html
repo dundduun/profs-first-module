@@ -167,20 +167,29 @@
             </div>
         </div>
     </section>
-    <section class="sub__sec">
+
+    <section class="main_search__sec">
         <div class="container">
+            <h2 class="sec__title reverse">Подписаться</h2>
             <form action="#">
-                <input type="email" placeholder="Email">
-                <label for="agree">
-                    <input type="checkbox" name="agree" id="agree">
-                    <p>Даю согласие на обработку персональных данных</p>
-                </label>
+                <input type="text" placeholder="Email">
+                <div class="checkbox-container">
+                    <input
+                            class="proceed-data"
+                            name="consent-data-proceeding"
+                            id="consent-data-proceeding"
+                            type="checkbox"
+                    />
+                    <label class="consent-label" for="consent-data-proceeding">
+                        Даю согласие на обработку персональных данных
+                    </label>
+                </div>
                 <button class="btn btn__reverse" type="submit">Подписаться</button>
             </form>
         </div>
     </section>
-
 </main>
+
 <footer>
     <div class="contact">
         <p class="phone">8 (800)123-45-67</p>
