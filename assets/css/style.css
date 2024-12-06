@@ -103,35 +103,34 @@ main {
             }
 
         }
+    }
 
-        & .slide__nav {
-            width: fit-content;
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            margin: 0 auto;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 12px;
-            margin-top: 20px;
+    & .pagination {
+        width: fit-content;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 12px;
+        margin-top: 20px;
 
-            & a {
-                border-radius: 50%;
-                background-color: #5c5c5c;
-                width: 10px;
-                height: 10px;
-                cursor: pointer;
-                transition: 0.4s;
+        & a {
+            border-radius: 50%;
+            background-color: #5c5c5c;
+            width: 10px;
+            height: 10px;
+            cursor: pointer;
+            transition: 0.4s;
 
-                &:hover {
-                    transform: scale(1.4);
-                }
+            &:hover {
+                transform: scale(1.4);
+            }
 
-                &.active {
-                    transform: scale(1.8);
-                    background-color: #69efdf;
-                }
-
+            &.active {
+                transform: scale(1.8);
+                background-color: #69efdf;
             }
 
         }
@@ -253,6 +252,30 @@ main {
 
     }
 
+    & .reviews-section {
+        & .container {
+            & .reviews-block {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 30px;
+
+                & .review-card {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 340px;
+                    background: white;
+
+                    & .img {
+                        width: 320px;
+                        height: 240px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
 }
 
 footer {
