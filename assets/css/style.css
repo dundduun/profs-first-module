@@ -5,7 +5,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 4px solid #69efdf;
+    border-bottom: 4px solid var(--primary-green);
 
     background-color: #fff;
 
@@ -13,7 +13,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #69efdf;
+        background-color: var(--primary-green);
         border-radius: 50%;
         width: 55px;
         height: 55px;
@@ -41,7 +41,7 @@ nav {
         transition: 0.4s;
 
         &:hover {
-            background-color: #69efdf;
+            background-color: var(--primary-green);
         }
 
     }
@@ -131,7 +131,7 @@ main {
 
             &.active {
                 transform: scale(1.8);
-                background-color: #69efdf;
+                background-color: var(--primary-green);
             }
 
         }
@@ -182,7 +182,7 @@ main {
                 align-items: center;
                 width: 250px;
                 height: 250px;
-                background-color: #69efdf;
+                background-color: var(--primary-green);
                 border-radius: 50%;
                 gap: 25px;
 
@@ -293,7 +293,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 4px solid #69efdf;
+    border-top: 4px solid var(--primary-green);
     padding: 50px 10px;
     width: 100%;
     background-color: #fff;
