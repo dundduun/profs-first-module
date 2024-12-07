@@ -1,5 +1,5 @@
 body {
-    background: #ffce5d;
+    background: var(--primary-yellow);
     margin: 0;
 }
 
@@ -9,14 +9,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 4px solid #69efdf;
+    border-bottom: 4px solid var(--primary-green);
     background-color: #fff;
 
     & .logo {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #69efdf;
+        background-color: var(--primary-green);
         border-radius: 50%;
         width: 55px;
         height: 55px;
@@ -44,18 +44,111 @@ body {
         color: black;
 
         &:hover {
-            background-color: #69efdf;
+            background-color: var(--primary-green);
         }
     }
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-height: calc(100vh - 244px);
+    width: 100%;
 
     & .container {
+        margin-top: 40px;
+
         & .user-info {
             display: flex;
             flex-direction: column;
+            align-items: center;
+            margin: 10px 0;
+            width: 100%;
+            padding: 0;
+
+            & .key-value-container {
+                display: flex;
+                margin: 5px 0;
+                width: 700px;
+                gap: 20px;
+
+                & .info-block {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 10px;
+                    width: 400px;
+                    padding: 5px;
+                    background-color: white;
+
+                    & .edit-icon {
+                        height: 24px;
+                        width: auto;
+                        cursor: pointer;
+                    }
+                }
+            }            
+        }
+
+        & .user-ads {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 0 0 0;
+
+            & .user-ads-title {
+                font-size: 30px;
+            }
+
+            & .ad-groups {
+                display: flex;
+                flex-direction: column;
+                margin-top: 30px;
+                width: 100%;
+
+                & .group {
+                    padding: 15px;
+
+                    .group-title {
+                        font-weight: bold;
+                    }
+
+                    & .ads {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        flex-wrap: wrap;
+                        margin-top: 15px;
+
+                        & .ad {
+                            background: white;
+    
+                            & .key-value-container {
+                                border: 1px solid black;
+                                padding: 10px;
+                            }
+                        }
+                    }
+
+                    &.active {
+                        background: red;
+                    }
+
+                    &.on-moderation {
+                        background: orange;
+                    }
+
+                    &.found {
+                        background: green;
+                    }
+
+                    &.archive {
+                        background: grey;
+                    }
+                }
+            }
         }
     }
 }
@@ -66,7 +159,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-top: 4px solid #69efdf;
+    border-top: 4px solid var(--primary-green);
     background-color: #fff;
 }
 
