@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="assets/css/orders-management.css"/>
+    <link rel="stylesheet" href="assets/css/root.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <title>Личный кабинет</title>
+</head>
+
+<body>
+<header class="header">
+    <a href="index.html" class="logo"><img src="assets/media/logo.png" alt="Logo"></a>
+    <nav class="nav">
+        <a class="link" href="search.html">Поиск</a>
+        <a class="link" href="register.html">Регистрация</a>
+        <a class="link" href="personal.html">Личный кабинет</a>
+        <a class="link" href="add.html">Добавить</a>
+        <a class="link" href="reviews.html">Отзывы</a>
+    </nav>
+</header>
+
+<main class="main">
+    <div class="container">
+        <section class="ads-container">
+            <h2 class="ads-title">Объявления пользователей</h2>
+
+            <div class="filter-container">
+                <label for="filter">
+                    Фильтровать по:
+                </label>
+
+                <select class="filter" name="filter" id="filter">
+                    <option value=""></option>
+                    <option value="date">дате</option>
+                    <option value="status">статусу</option>
+                </select>
+            </div>
+
+            <div class="ad-groups">
+
+                <div class="group on-moderation">
+                    <h3 class="group-title">На модерации</h3>
+
+                    <div class="ads">
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group active">
+                    <h3 class="group-title">Активные</h3>
+
+                    <div class="ads">
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group found">
+                    <h3 class="group-title">Найдено</h3>
+
+                    <div class="ads">
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group archive">
+                    <h3 class="group-title">В архиве</h3>
+
+                    <div class="ads">
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+
+                        <div class="ad">
+                            <div class="photo">
+                                <img class="img" src="assets/media/animals/panda.jpeg">
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Контактный номер:</h4>
+                                <span class="value">+7 (800) 555-35-35</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">E-mail:</h4>
+                                <span class="value">fyodor.pupkin@mail.ru</span>
+                            </div>
+
+                            <div class="key-value-container district">
+                                <h4 class="key">Район:</h4>
+                                <span class="value">Железнодорожный</span>
+                            </div>
+
+                            <div class="key-value-container publication-date">
+                                <h4 class="key">Дата публикации:</h4>
+                                <span class="value">25.11.22</span>
+                            </div>
+
+                            <div class="key-value-container addition">
+                                <h4 class="key">Дополнительная информация:</h4>
+                                <span class="value">Отсутствует</span>
+                            </div>
+
+                            <div class="key-value-container">
+                                <h4 class="key">Вид:</h4>
+                                <span class="value">Панда</span>
+                            </div>
+
+                            <div class="key-value-container stamp">
+                                <h4 class="key">Клеймо:</h4>
+                                <span class="value">Чёрные глаза</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="contact">
+        <p class="phone">8 (800)123-45-67</p>
+        <p class="mail">mail@newlife.ru</p>
+    </div>
+    <nav class="nav">
+        <a class="link" href="index.html">Главная</a>
+        <a class="link" href="search.html">Поиск</a>
+        <a class="link" href="register.html">Регистрация</a>
+        <a class="link" href="personal.html">Личный кабинет</a>
+        <a class="link" href="add.html">Добавить</a>
+        <a class="link" href="reviews.html">Отзывы</a>
+    </nav>
+</footer>
+</body>
+</html>
