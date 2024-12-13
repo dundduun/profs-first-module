@@ -133,9 +133,7 @@ main {
                 transform: scale(1.8);
                 background-color: var(--primary-green);
             }
-
         }
-
     }
 
     & .fast_search__sec {

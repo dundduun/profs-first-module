@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск</title>
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <a href="index.html" class="logo"><img src="assets/media/logo.png" alt="Logo"></a>
+    <nav>
+        <a href="search.html">Поиск</a>
+        <a href="register.html">Регистрация</a>
+        <a href="personal.html">Личный кабинет</a>
+        <a href="add.html">Добавить</a>
+        <a href="reviews.html">Отзывы</a>
+    </nav>
+</header>
+
+<main class="main">
+    <section class="search">
+        <div class="container">
+            <h2 class="sec__title reverse">Полный поиск</h2>
+            <form action="#">
+                <input type="text" placeholder="Район">
+                <input type="text" placeholder="Вид животного">
+                <input type="text" placeholder="Порода">
+                <button type="submit" class="btn btn__reverse">Поиск питомца</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="results">
+        <h2 class="sec__title reverse">
+            Результаты
+        </h2>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Вид
+                    </th>
+                    <th>
+                        Фото
+                    </th>
+                    <th>
+                        Доп. информация
+                    </th>
+                    <th>
+                        Клеймо
+                    </th>
+                    <th>
+                        Район
+                    </th>
+                </tr>
+            </thead>
+        </table>
+
+
+        <div class="pagination">
+            <a class="active" href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="contact">
+        <p class="phone">8 (800)123-45-67</p>
+        <p class="mail">mail@newlife.ru</p>
+    </div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="search.html">Поиск</a>
+        <a href="register.html">Регистрация</a>
+        <a href="personal.html">Личный кабинет</a>
+        <a href="add.html">Добавить</a>
+        <a href="reviews.html">Отзывы</a>
+    </nav>
+</footer>
+</body>
+</html>
