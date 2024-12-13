@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/add.css" />
+    <link rel="stylesheet" href="assets/css/root.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Добавить найденное животное</title>
+</head>
+
+<body>
+<header class="header">
+    <a href="index.html" class="logo"><img src="assets/media/logo.png" alt="Logo"></a>
+    <nav class="nav">
+        <a class="link" href="search.html">Поиск</a>
+        <a class="link" href="registration.html">Регистрация</a>
+        <a class="link" href="personal.html">Личный кабинет</a>
+        <a class="link" href="add.html">Добавить</a>
+        <a class="link" href="reviews.html">Отзывы</a>
+    </nav>
+</header>
+
+<main class="main">
+    <section class="login">
+        <div class="container">
+            <h2 class="title">Добавить</h2>
+            <form action="#">
+                <input type="text" placeholder="Контактный номер*">
+                <span class="wrong-data">Поле "Контактный номер" обязательно для заполнения</span>
+
+                <input type="email" placeholder="E-mail*">
+                <span class="wrong-data">Поле "E-mail" обязательно для заполнения</span>
+
+                <div class="register-container checkbox-container">
+                    <label for="register">Зарегистрироваться автоматически?</label>
+                    <input class="checkbox register" id="register" type="checkbox" />
+
+                    <div class="checkbox-dependent" id="checkbox-dependent">
+                        <input type="text" placeholder="Пароль">
+                        <span class="wrong-data">Поле "Пароль" обязательно для заполнения</span>
+
+                        <input type="text" placeholder="Повтор пароля">
+                        <span class="wrong-data">Поле "Повтор пароля" обязательно для заполнения</span>
+                    </div>
+                </div>
+
+                <input type="text" placeholder="Вид*">
+
+                <span class="wrong-data">Указанного вида не существует</span>
+
+                <div class="add-photos">
+                    <span class="add-photos__title">Добавить фото</span>
+
+                    <div class="photos-container">
+                        <div class="photo">+</div>
+
+                        <div class="photo">+</div>
+
+                        <div class="photo">+</div>
+                    </div>
+                </div>
+                <input type="text" placeholder="Дополнительная информация">
+
+                <input type="text" placeholder="Клеймо (если есть)">
+
+                <input type="text" placeholder="Район">
+
+                <span class="wrong-data">Поле "Район" обязательно для заполнения</span>
+
+                <label for="date">Дата нахождения*:</label>
+
+                <input id="date" name="date" type="date" placeholder="Дата нахождения">
+
+                <div class="checkbox-container">
+                    <input class="checkbox" name="checkbox" id="checkbox" type="checkbox" />
+
+                    <label for="checkbox">Соглашаюсь на обработку персональных данных</label>
+                </div>
+
+                <a href="login.html" class="btn btn__reverse">Добавить</a>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="contact">
+        <p class="phone">8 (800)123-45-67</p>
+        <p class="mail">mail@newlife.ru</p>
+    </div>
+    <nav class="nav">
+        <a class="link" href="index.html">Главная</a>
+        <a class="link" href="search.html">Поиск</a>
+        <a class="link" href="registration.html">Регистрация</a>
+        <a class="link" href="personal.html">Личный кабинет</a>
+        <a class="link" href="add.html">Добавить</a>
+        <a class="link" href="reviews.html">Отзывы</a>
+    </nav>
+</footer>
+</body>
+</html>
